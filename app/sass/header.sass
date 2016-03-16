@@ -1,0 +1,93 @@
+@import "bourbon"
+@import "_vars.sass"
+
+body
+	font-size: 14px
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	background-color: #fff
+	font-family: "Open Sans", sans-serif
+	overflow-x: hidden
+	margin: 0
+	padding: 0
+
+.hidden
+	display: none
+.inner
+	max-width: 1100px
+	margin: 0 auto
+header
+	background-image: url(../img/head-bg.png)
+	background-color: #dcdcdc
+	background-position: 17px -16px
+	.content
+		text-align: center
+		height: 671px
+		position: relative
+		.description
+			position: relative
+			top: 40%
+			right: -3.7%
+			letter-spacing: 2.3px
+			transform: translateY(-50%)
+			overflow: hidden
+			line-height: 24px
+			.small-descr
+				font-size: 16px
+				color: #81868e
+				letter-spacing: 5.3px
+				line-height: 9px
+.head
+	overflow: hidden
+	width: 1086px
+	margin: 0 auto
+.menu
+	line-height: 100px
+.logo
+	font-family: "lacker"
+	font-size: 28px
+	color: $red
+nav
+	float: right
+	li
+		margin: 0 21px 0 1px
+		display: inline-block
+		a
+			display: inline-block
+.mouse
+	position: absolute
+	bottom: 38px
+	right: 42.5%
+	p
+		margin-top: 3px
+		color: $red
+		font-size: 12px
+
+.likes
+	background-color: rgba(220,79,65, 0.7)
+	background-image: url("../img/like-bg.jpg")
+	padding: 100px 0
+.likes-inner
+	display: flex
+	justify-content: center
+	// max-width: 920px
+	z-index: 2
+.like-block
+	color: #fff
+	margin: 0 40px
+	i
+		font-size: 50px
+	h2
+		display: inline-block
+		padding-left: 10px
+		font-family: "RobotoRegular"
+		padding-bottom: 20px
+	h4
+		@extend .h4
+		color: #fff
+		font-family: "RobotoRegular"
+		&:after
+			background-color: #FFF
+			width: 50px
+			height: 2px

@@ -1,0 +1,229 @@
+@font-face {
+  font-family: "RobotoRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "lacker";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/lackerlione/leckerlione-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lackerlione/leckerlione-regular-webfont.woff") format("woff"), url("../fonts/lackerlione/leckerlione-regular-webfont.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/OpenSans/opensans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans/opensans-regular-webfont.woff") format("woff"), url("../fonts/OpenSans/opensans-regular-webfont.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "RobotoMedium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoMedium/roboto-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoMedium/roboto-medium-webfont.woff") format("woff"), url("../fonts/RobotoMedium/roboto-medium-webfont.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "RobotoLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoLight/roboto-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoLight/roboto-light-webfont.woff") format("woff"), url("../fonts/RobotoLight/roboto-light-webfont.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "RobotoBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoBold/roboto-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoBold/roboto-bold-webfont.woff") format("woff"), url("../fonts/RobotoBold/roboto-bold-webfont.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/FontAwesome/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/FontAwesome/fontawesome-webfont.woff") format("woff"), url("../fonts/FontAwesome/fontawesome-webfont.ttf") format("truetype"); }
+
+*::-webkit-input-placeholder {
+  color: #666;
+  opacity: 1; }
+
+*:-moz-placeholder {
+  color: #666;
+  opacity: 1; }
+
+*::-moz-placeholder {
+  color: #666;
+  opacity: 1; }
+
+*:-ms-input-placeholder {
+  color: #666;
+  opacity: 1; }
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: #666; }
+
+body input:required:valid,
+body textarea:required:valid {
+  color: #666; }
+
+section {
+  padding: 90px 0 30px; }
+  section .inner-head {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  section .head {
+    text-align: center;
+    max-width: 540px; }
+    section .head h2 {
+      text-transform: uppercase; }
+      section .head h2::after {
+        content: '';
+        display: block;
+        width: 47px;
+        height: 3px;
+        margin: 0 auto;
+        margin-top: 15px;
+        margin-bottom: 34px;
+        background-color: #898989; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "RobotoMedium";
+  font-weight: 300;
+  color: #333b46; }
+
+h1 {
+  font-size: 35px; }
+
+h2 {
+  font-size: 20px; }
+
+ul {
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: #333b46; }
+
+p {
+  line-height: 25px;
+  letter-spacing: 1px;
+  color: #81868e; }
+
+.about a {
+  display: inline-block;
+  margin-top: 26px;
+  padding: 10px 16px;
+  color: #fff;
+  background-color: #e84c3d;
+  letter-spacing: 3px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px; }
+
+.about img {
+  position: relative;
+  top: 22px;
+  left: 47px; }
+
+.about h2 {
+  letter-spacing: 4px; }
+  .about h2::after {
+    content: '';
+    display: block;
+    width: 47px;
+    height: 3px;
+    margin-top: 15px;
+    margin-bottom: 34px;
+    background-color: #898989; }
+
+.about .inner {
+  width: 985px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.about .description, .about .image-block {
+  width: 50%;
+  display: inline-block;
+  margin-left: 20px; }
+
+.what-items {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 50px; }
+
+.what-item {
+  max-width: 520px;
+  border: 2px solid #e84c3d;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease; }
+  .what-item:hover {
+    background-color: #e84c3d; }
+    .what-item:hover .what-item-text h4 {
+      color: #fff; }
+    .what-item:hover .what-item-text p {
+      color: #fff; }
+    .what-item:hover i {
+      background-color: #fff;
+      color: #e84c3d; }
+  .what-item .what-item-img {
+    width: 150px;
+    display: inline-block;
+    vertical-align: top; }
+  .what-item .what-item-text {
+    display: inline-block;
+    max-width: 320px; }
+    .what-item .what-item-text p {
+      padding-top: 20px; }
+  .what-item i {
+    font-size: 47px;
+    color: #fff;
+    padding: 30px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #e84c3d; }
+  .what-item .fa-mobile {
+    padding: 30px 46px; }
+
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /*Disable Animation on Mobile Devices*/
+  .animated {
+    /*CSS transitions*/
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    /*CSS transforms*/
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    /*CSS animations*/
+    -webkit-animation: none !important;
+    animation: none !important; } }
+
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */

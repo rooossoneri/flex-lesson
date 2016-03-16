@@ -1,0 +1,147 @@
+@import "bourbon";
+@import "fonts.sass"
+@import "vars.sass"
+
+
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+//Custom Styles Here
+section
+	padding: 90px 0 30px
+	.inner-head
+		display: flex
+		justify-content: center
+	.head
+		// display: flex
+		// justify-content: center
+		text-align: center
+		max-width: 540px
+		h2
+			text-transform: uppercase
+			&::after
+				content: ''
+				display: block
+				width: 47px
+				height: 3px
+				margin: 0 auto
+				margin-top: 15px
+				margin-bottom: 34px
+				background-color: #898989
+h1, h2, h3, h4, h5, h6
+	font-family: "RobotoMedium"
+	font-weight: 300
+	color: #333b46
+h1
+	font-size: 35px
+h2
+	font-size: 20px
+ul
+	padding: 0
+	margin: 0
+a
+	text-decoration: none
+	color: #333b46
+p
+	line-height: 25px
+	letter-spacing: 1px
+	color: #81868e
+
+
+.about
+	a
+		display: inline-block
+		margin-top: 26px
+		padding: 10px 16px
+		color: #fff
+		background-color: $red
+		letter-spacing: 3px
+		border-radius: 4px
+	img
+		position: relative
+		top: 22px
+		left: 47px
+	h2
+		letter-spacing: 4px
+		&::after
+			content: ''
+			display: block
+			width: 47px
+			height: 3px
+			margin-top: 15px
+			margin-bottom: 34px
+			background-color: #898989
+	.inner
+		width: 985px
+		display: flex
+	.description, .image-block
+		width: 50%
+		display: inline-block
+		// margin-right: 50px
+		margin-left: 20px
+
+.what-we-do
+.what-items
+	display: flex
+	justify-content: space-between
+	margin-top: 50px
+.what-item
+	max-width: 520px
+	border: 2px solid $red
+	border-radius: 10px
+	padding: 20px
+	margin-bottom: 20px
+	cursor: pointer
+	transition: all .5s ease
+	&:hover
+		background-color: $red
+		.what-item-text
+			h4
+				color: #fff
+			p
+				color: #fff
+		i
+			background-color: #fff
+			color: $red
+	.what-item-img
+		width: 150px
+		display: inline-block
+		vertical-align: top
+	.what-item-text
+		display: inline-block
+		max-width: 320px
+		h4
+			@extend .h4
+		p
+			padding-top: 20px
+	i
+		font-size: 47px
+		color: #fff
+		padding: 30px
+		border-radius: 50%
+		background-color: $red
+	.fa-mobile
+		padding: 30px 46px
+//ALWAYS END
+@import "media"

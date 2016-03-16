@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "RobotoRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "lacker";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/lackerlione/leckerlione-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lackerlione/leckerlione-regular-webfont.woff") format("woff"), url("../fonts/lackerlione/leckerlione-regular-webfont.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/OpenSans/opensans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans/opensans-regular-webfont.woff") format("woff"), url("../fonts/OpenSans/opensans-regular-webfont.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "RobotoMedium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoMedium/roboto-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoMedium/roboto-medium-webfont.woff") format("woff"), url("../fonts/RobotoMedium/roboto-medium-webfont.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "RobotoLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoLight/roboto-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoLight/roboto-light-webfont.woff") format("woff"), url("../fonts/RobotoLight/roboto-light-webfont.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "RobotoBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoBold/roboto-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoBold/roboto-bold-webfont.woff") format("woff"), url("../fonts/RobotoBold/roboto-bold-webfont.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/FontAwesome/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/FontAwesome/fontawesome-webfont.woff") format("woff"), url("../fonts/FontAwesome/fontawesome-webfont.ttf") format("truetype"); }
