@@ -58,6 +58,9 @@ h1
 	font-size: 35px
 h2
 	font-size: 20px
+h4
+	font-size: 16px
+	color: #fff
 ul
 	padding: 0
 	margin: 0
@@ -168,9 +171,11 @@ li
 	p
 		font-size: 14px
 		color: #81868e
-
+.works
+	background-color: #ececec
 .works-images
 	display: flex
+	margin-top: 50px
 	justify-content: center
 	flex-wrap: wrap
 	.work-image
@@ -209,5 +214,24 @@ li
 			cursor: pointer
 			font-size: 14px
 
+.service-items
+	display: flex
+	background-color: $red
+	flex-direction: column
+.service-item
+	display: flex
+	justify-content: space-between
+	max-width: 1350px
+	&:nth-child(2n)
+		flex-direction: row-reverse
+.item-img
+	max-height: 337px
+.item-text
+	max-width: 500px
+	padding-top: 100px
+	p
+		color: #fff
+	&:nth-child(2n)
+		padding-left: 100px
 //ALWAYS END
 @import "media"
