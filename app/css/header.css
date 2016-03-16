@@ -109,8 +109,10 @@ nav li {
   margin: 0 40px; }
   .like-block i {
     font-size: 50px; }
-  .like-block h2 {
+  .like-block .like-title {
     display: inline-block;
+    font-size: 30px;
+    color: #fff;
     padding-left: 10px;
     font-family: "RobotoRegular";
     padding-bottom: 20px; }

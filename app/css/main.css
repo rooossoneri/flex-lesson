@@ -205,6 +205,32 @@ li {
   .what-item .fa-mobile {
     padding: 30px 46px; }
 
+.steps, .about, .what-to-do {
+  background-color: #f3f3f3; }
+
+.steps-items {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px; }
+
+.step-item {
+  text-align: center; }
+  .step-item i {
+    font-size: 50px;
+    color: #e84c3d;
+    padding: 20px 30px;
+    background-color: #e6e6e6;
+    -webkit-border-radius: 50%;
+    border-radius: 50%; }
+  .step-item h4 {
+    font-size: 16px;
+    padding-top: 30px; }
+  .step-item p {
+    font-size: 14px;
+    color: #81868e; }
+
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
