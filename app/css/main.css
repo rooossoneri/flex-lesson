@@ -110,6 +110,16 @@ ul {
   padding: 0;
   margin: 0; }
 
+.button-red, .bussiness .create a {
+  display: inline-block;
+  margin-top: 26px;
+  padding: 10px 16px;
+  color: #fff;
+  background-color: #e84c3d;
+  letter-spacing: 3px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px; }
+
 a {
   text-decoration: none;
   color: #333b46; }
@@ -212,7 +222,10 @@ li {
   .what-item .fa-mobile {
     padding: 30px 46px; }
 
-.steps, .about, .what-to-do {
+.works, .services {
+  padding-bottom: 0; }
+
+.steps, .about, .what-to-do, .services {
   background-color: #f3f3f3; }
 
 .steps-items {
@@ -337,6 +350,114 @@ li {
     color: #fff; }
   .item-text:nth-child(2n) {
     padding-left: 100px; }
+
+.bussiness {
+  background-image: url("../img/create-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 90px 0; }
+  .bussiness h2 {
+    font-size: 30px; }
+  .bussiness h2, .bussiness h4 {
+    color: #fff;
+    font-family: "RobotoLight";
+    letter-spacing: 4px; }
+
+.portfolio {
+  padding: 70px 0 0 0; }
+  .portfolio img {
+    width: 100%;
+    height: 100%; }
+  .portfolio figure {
+    position: relative;
+    margin: 0;
+    font-size: 0; }
+    .portfolio figure:hover figcaption {
+      opacity: 1; }
+  .portfolio figcaption {
+    opacity: 0;
+    background-color: rgba(222, 96, 84, 0.7);
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease; }
+    .portfolio figcaption h3 {
+      text-align: center;
+      color: #fff;
+      border: 1px solid #fff;
+      display: block;
+      position: relative;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      width: 160px;
+      margin: 0 auto;
+      padding: 10px;
+      font-family: "OpenSans";
+      -webkit-border-radius: 15px;
+      border-radius: 15px;
+      cursor: pointer;
+      font-size: 14px; }
+
+.portfolio-items {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-height: 1293px;
+  overflow: hidden; }
+
+.portfolio-column {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1; }
+
+.subscribe {
+  padding: 70px 0;
+  background-image: url("../img/sub-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .subscribe h4, .subscribe p {
+    color: #fff; }
+  .subscribe p {
+    padding-top: 14px; }
+  .subscribe .submit {
+    padding-top: 50px; }
+    .subscribe .submit input {
+      padding: 8px 75px 9px 35px;
+      background-color: transparent;
+      border: 1px solid #fff;
+      color: #fff; }
+    .subscribe .submit button {
+      background-color: transparent;
+      border: 1px solid #fff;
+      margin-left: -4px;
+      padding: 7px 20px;
+      color: #fff;
+      font-family: "RobotoBold"; }
+
+.subscribe-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.subcribe-text {
+  max-width: 420px; }
+  .subcribe-text p {
+    font-size: 12.5px; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
