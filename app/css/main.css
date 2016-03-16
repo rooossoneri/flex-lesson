@@ -65,7 +65,7 @@ body textarea:required:valid {
   color: #666; }
 
 section {
-  padding: 90px 0 30px; }
+  padding: 98px 0 30px; }
   section .inner-head {
     display: -webkit-box;
     display: -webkit-flex;
@@ -79,7 +79,8 @@ section {
     text-align: center;
     max-width: 540px; }
     section .head h2 {
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      letter-spacing: 4px; }
       section .head h2::after {
         content: '';
         display: block;
