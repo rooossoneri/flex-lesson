@@ -46,20 +46,29 @@ header {
   margin: 0 auto; }
 
 .menu {
-  line-height: 100px; }
+  line-height: 100px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
 
 .logo {
   font-family: "lacker";
   font-size: 28px;
   color: #e84c3d; }
 
-nav {
-  float: right; }
-  nav li {
-    margin: 0 21px 0 1px;
-    display: inline-block; }
-    nav li a {
-      display: inline-block; }
+nav ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+nav li {
+  margin: 0 21px 0 1px; }
 
 .mouse {
   position: absolute;

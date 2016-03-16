@@ -114,6 +114,9 @@ p {
   letter-spacing: 1px;
   color: #81868e; }
 
+li {
+  list-style: none; }
+
 .about a {
   display: inline-block;
   margin-top: 26px;
